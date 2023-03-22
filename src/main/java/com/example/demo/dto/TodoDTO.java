@@ -18,6 +18,6 @@ public class TodoDTO {
     public TodoDTO(final TodoEntity entity) {
         this.id = entity.getId();
         this.title = entity.getTitle();
-        this.done = entity.isDoen();
+        this.done = entity.isDone();
     }
 }
